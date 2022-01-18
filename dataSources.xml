@@ -21,5 +21,12 @@
       <jdbc-url>jdbc:postgresql://pg-productdashboard-fras-r-dbd.aivencloud.com:12833/defaultdb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="[PROD]Product-dashboard" uuid="287c6cdb-f2cd-42f3-8a4b-a1ae3fa2fae6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pg-productdashboard-fras-p-dbd.aivencloud.com:12833/defaultdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>

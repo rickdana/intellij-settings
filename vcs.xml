@@ -18,6 +18,14 @@
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="rickdana" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.com:pisixlab/doctaza_database.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/pisixlab/doctaza_database.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Adeo/DevZone" />

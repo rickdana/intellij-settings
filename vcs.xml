@@ -26,6 +26,10 @@
           <option name="url" value="https://gitlab.com/pisixlab/doctaza_database.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/rickdana/doctaza-auth-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/Adeo/DevZone" />

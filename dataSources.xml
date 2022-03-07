@@ -28,5 +28,19 @@
       <jdbc-url>jdbc:postgresql://pg-productdashboard-fras-p-dbd.aivencloud.com:12833/defaultdb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="postgres@pisx_test" uuid="ff0a3234-f053-41be-a7bd-00d801a22fd9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:32032/fusionauth</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@pisx_k8s" uuid="3da9c222-d0a6-46ec-beda-fa3e55869335">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://1b8a6723-327e-4ac6-8282-242296932828.nodes.k8s.fr-par.scw.cloud:30304/fusionauth</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </application>
